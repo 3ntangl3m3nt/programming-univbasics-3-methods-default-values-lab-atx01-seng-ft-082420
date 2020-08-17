@@ -1,5 +1,6 @@
 require 'pry'# Your code here
-def meal_choice(side1,side2, protien = "roast beef")
+
+def meal_choice(protien = "meat", veg1, veg2)
   puts "What a nutritious meal!"
   puts "A plate of #{protien} with #{side1} and #{side2}."
   return meal_choice
